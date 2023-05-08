@@ -68,7 +68,10 @@ body {
   justify-content: space-evenly;
   text-align: center;
 }
-.div-merch #buzo1, .div-merch #remera4, .div-merch #remera3, .div-merch #remera2, .div-merch #remera1, .div-merch #buzo2 {
+.div-merch .anim {
+  margin-bottom: 5%;
+}
+.div-merch .anim #buzo1, .div-merch .anim #remera4, .div-merch .anim #remera3, .div-merch .anim #remera2, .div-merch .anim #remera1, .div-merch .anim #buzo2 {
   width: 90%;
 }
 .div-merch .anim:hover {

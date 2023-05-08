@@ -9,29 +9,30 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
     text-align: center;
-    #buzo1{
-        width: 90%;
+    .anim{
+        margin-bottom: 5%;
+        #buzo1{
+            width: 90%;
+        }
+        #buzo2{
+            @extend #buzo1;
+        }
+        #remera1{
+            @extend #buzo1;
+        }
+        #remera2{
+            @extend #buzo1;
+        }
+        #remera3{
+            @extend #buzo1;
+        }
+        #remera4{
+            @extend #buzo1;
+        }
     }
-    #buzo2{
-        @extend #buzo1;
-    }
-    #remera1{
-        @extend #buzo1;
-    }
-    #remera2{
-        @extend #buzo1;
-    }
-    #remera3{
-        @extend #buzo1;
-    }
-    #remera4{
-        @extend #buzo1;
-    }
-
     .anim:hover{
         transform: scale(1.1);
         cursor: pointer;
-
     }
 }
 
