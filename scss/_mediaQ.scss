@@ -1,0 +1,188 @@
+@media (min-width: 375px) and (max-width: 376px) {
+    // MOBILE 
+    
+    .navbar{
+        width: 100%;
+        .container-fluid{
+            #logo{
+                width: 250%;
+            }
+        }
+        #links{
+            flex-direction: column;
+        }
+    }
+
+    
+    /* inicio */
+
+    .section-carousel{
+        width:100%;
+        margin-top: 20%;
+    }
+
+    .table{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    //MERCH
+
+    #merch{
+        margin-top: 25%;
+    }
+
+    // DISCOGRAFIA
+    
+    #discografia{
+        margin-top: 20%;
+        width: 100%;
+        margin-left: 0%;
+    }
+    #div-discos{
+        flex-direction: column;
+        
+        #disco1{
+            @include div-discos
+        }
+        #disco2{
+            @include div-discos
+        }
+        #disco3{
+            @include div-discos
+        }
+        #disco4{
+            @include div-discos
+        }
+        #disco5{
+            @include div-discos
+        }
+        #disco6{
+            @include div-discos
+        }
+        #disco7{
+            @include div-discos
+        }
+    }
+
+    /* sobre nosotros */
+
+    .div-foto{
+        margin-top: 15%;
+    }
+    
+    #section-sobre{
+        p{
+            margin-left: 4%;
+            width: 92%;
+        }
+    }
+
+    // CONTACTO
+
+    .h1-contacto{
+        margin-top: 25%;
+    }
+    
+    .section-form{
+        margin-left: 3%;
+        margin-bottom: 30%;
+        form{
+            div{
+                width: 90%;
+            }
+         }
+    }
+
+    // FOOTER
+
+    footer{
+        margin-top: 10%;
+        width: 90%;
+        a{
+            #twitter{
+                width: 650%;
+            }
+            #spotify{
+                width: 600%;
+            }
+            #youtube{
+                width: 700%;
+            }
+        }
+    }
+}
+
+    // DESKTOP
+
+@media (max-width: 1200px){
+    
+    // NAVBAR  
+
+    #links{
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // INICIO
+
+    .carousel{
+        width:100%;
+        margin-top: 7%;
+    }
+
+    //DISCOGRAFIA
+
+    #div-discos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        #disco1{
+            width: 30%;
+        }
+        #disco2{
+            width: 30%;
+            height: 50%;
+        }
+        #disco3{
+            width: 30%;
+            height: 50%;
+        }
+        #disco4{
+            width: 30%;
+            height: 300px;
+        }
+        #disco5{
+            width: 30%;
+            height: 350px;
+        }
+        #disco6{
+            width: 30%;
+        }
+        #disco7{
+            width: 30%;
+            height: 350px;
+        }
+    }
+    
+    // sobreNosotros
+
+    #sobreNosotros{
+        margin-top: 4%;
+    }
+
+    //contacto
+
+    .section-form{
+        margin-bottom: 10%;
+        margin-left: 50%;
+        form{
+            div{
+                width: 75%;
+            }
+         }
+    }
+}

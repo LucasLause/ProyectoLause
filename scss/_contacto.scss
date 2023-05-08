@@ -1,0 +1,27 @@
+.h1-contacto{
+    margin-left: 2%;
+    margin-top: 9%;
+}
+
+.h3{
+    margin-left: 2%;
+    margin-bottom: 2%
+}
+
+.section-form{
+    margin-left: 60%;
+    form{
+        button{
+            @include boton-tour;
+        }       
+        div{
+            display:flex;
+            flex-direction:column;
+            width: 50%;
+            margin-bottom: 3%;
+            label{
+                font-size:1.7rem;
+            }
+        }
+    }
+}

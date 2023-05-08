@@ -1,0 +1,42 @@
+#discografia{
+    width: 60%;
+    margin-left: 20%;
+    margin-top:  7%;
+}
+
+#titulo{
+    margin-left:3%;
+    margin-bottom: 3%;
+}
+
+#div-discos{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    #disco1{
+        width: 20%;
+    }
+    #disco2{
+        width: 21%;
+    }
+    #disco3{
+        width: 21%;
+    }
+    #disco4{
+        width: 21%;
+    }
+    #disco5{
+        width: 21%;
+    }
+    #disco6{
+        width: 20%;
+    }
+    #disco7{
+        width: 20%;
+    }
+    div{
+        margin-left: 3%;
+    }
+}
