@@ -22,7 +22,7 @@
     }
 
     .table{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: center;
         margin-left: 5%;
     }
@@ -40,31 +40,33 @@
         width: 100%;
         margin-left: 0%;
     }
-    #div-discos{
-        flex-direction: column;
-        
-        #disco1{
-            @include div-discos
-        }
-        #disco2{
-            @include div-discos
-        }
-        #disco3{
-            @include div-discos
-        }
-        #disco4{
-            @include div-discos
-        }
-        #disco5{
-            @include div-discos
-        }
-        #disco6{
-            @include div-discos
-        }
-        #disco7{
-            @include div-discos
+    .section-discos{
+        #div-discos{
+            flex-direction: column;
+            #disco1{
+                @include div-discos
+            }
+            #disco2{
+                @include div-discos
+            }
+            #disco3{
+                @include div-discos
+            }
+            #disco4{
+                @include div-discos
+            }
+            #disco5{
+                @include div-discos
+            }
+            #disco6{
+                @include div-discos
+            }
+            #disco7{
+                @include div-discos
+            }
         }
     }
+    
 
     /* sobre nosotros */
 
@@ -75,7 +77,7 @@
     #section-sobre{
         p{
             margin-left: 4%;
-            width: 92%;
+            width: 90%;
         }
     }
 
@@ -133,13 +135,37 @@
         margin-top: 7%;
     }
 
+    // MERCH
+
+    .div-merch{
+        .anim{
+            #buzo1{
+                width: 80%;
+            }
+            #buzo2{
+                width: 80%;
+            }
+            #remera1{
+                width: 80%;
+            }
+            #remera2{
+                width: 80%;
+            }
+            #remera3{
+                width: 80%;
+            }
+            #remera4{
+                width: 80%;
+            } 
+            margin-bottom: 5%;
+        }
+    }
+
     //DISCOGRAFIA
 
     #div-discos{
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         justify-content: center;
-        align-items: center;
         #disco1{
             width: 30%;
         }
