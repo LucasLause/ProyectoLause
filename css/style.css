@@ -149,7 +149,15 @@ body {
 }
 
 .section-form {
-  margin-left: 60%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.section-form img {
+  width: 40%;
+}
+.section-form form {
+  margin-left: 20%;
 }
 .section-form form button {
   --bs-btn-font-weight: 600;
@@ -161,11 +169,11 @@ body {
 .section-form form div {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin-bottom: 3%;
+  width: 150%;
+  margin-bottom: 13%;
 }
 .section-form form div label {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
 footer {
@@ -270,15 +278,24 @@ footer a #youtube {
   .section-form {
     margin-bottom: 30%;
   }
+  .section-form img {
+    display: none;
+  }
   .section-form form {
     margin-left: -95%;
+    width: 200%;
   }
   .section-form form div {
     width: 90%;
+    margin-bottom: 4%;
+  }
+  .section-form form div label {
+    font-size: 1.7rem;
   }
   footer {
+    justify-content: space-between;
     margin-top: 10%;
-    width: 90%;
+    width: 80%;
   }
   footer a #twitter {
     width: 650%;

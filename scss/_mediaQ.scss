@@ -90,10 +90,18 @@
     
     .section-form{
         margin-bottom: 30%;
+        img{
+            display:none;
+        }
         form{
             margin-left: -95%;
+            width: 200%;
             div{     
                 width: 90%;
+                margin-bottom: 4%;
+                label{
+                    font-size: 1.7rem;
+                }
             }
          }
     }
@@ -101,8 +109,9 @@
     // FOOTER
 
     footer{
+        justify-content: space-between;
         margin-top: 10%;
-        width: 90%;
+        width: 80%;
         a{
             #twitter{
                 width: 650%;

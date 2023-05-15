@@ -9,18 +9,24 @@
 }
 
 .section-form{
-    margin-left: 60%;
+    margin-left: 2%;
+    display:flex;
+    flex-direction: row;
+    img{
+        width: 40%;
+    }
     form{
+        margin-left: 20%;
         button{
             @include boton-tour;
         }       
         div{
             display:flex;
             flex-direction:column;
-            width: 50%;
-            margin-bottom: 3%;
+            width: 150%;
+            margin-bottom: 13%;
             label{
-                font-size:1.7rem;
+                font-size:2.5rem;
             }
         }
     }
